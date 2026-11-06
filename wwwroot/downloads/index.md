@@ -9,7 +9,6 @@ TKVSC is distributed as a `.vsix` extension package for Visual Studio Code.
 
 <div id="download-btns">
   <a class="download-btn" id="download-detected" href="https://github.com/TKVSC-Team/totk-vscode/releases/latest">Download for your OS</a>
-  <a class="download-btn" id="download-all" href="#platform-downloads">See all downloads</a>
   <a class="download-btn" id="download-src" href="https://github.com/TKVSC-Team/totk-vscode">Source Code</a>
   <a class="download-btn" id="download-addon" href="https://tkvsc.dev/addons/index.html">Addons</a>
 </div>
@@ -24,6 +23,37 @@ TKVSC is distributed as a `.vsix` extension package for Visual Studio Code.
     <li><a data-download-platform="mac-arm64" href="https://downloads.tkvsc.dev/tkvsc/latest/mac/arm">macOS (Apple Silicon)</a></li>
   </ul>
 </div>
+
+<script>
+  (() => {
+    const downloads = {
+      windows: ['https://downloads.tkvsc.dev/tkvsc/latest/win', 'Download for Windows'],
+      linux: ['https://downloads.tkvsc.dev/tkvsc/latest/linux', 'Download for Linux'],
+      macX64: ['https://downloads.tkvsc.dev/tkvsc/latest/mac/x86', 'Download for macOS (Intel)'],
+      macArm64: ['https://downloads.tkvsc.dev/tkvsc/latest/mac/arm', 'Download for macOS (Apple Silicon)']
+    };
+    const button = document.getElementById('download-detected');
+    const platform = navigator.userAgentData?.platform || navigator.platform || navigator.userAgent;
+    let download = /win/i.test(platform) ? downloads.windows : /linux/i.test(platform) ? downloads.linux : /mac/i.test(platform) ? downloads.macX64 : null;
+
+    if (/mac/i.test(platform) && navigator.userAgentData?.getHighEntropyValues) {
+      navigator.userAgentData.getHighEntropyValues(['architecture']).then(({ architecture }) => {
+        if (/arm/i.test(architecture)) {
+          download = downloads.macArm64;
+          button.href = download[0];
+          button.textContent = download[1];
+        }
+      });
+    } else if (/mac/i.test(platform) && navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1) {
+      download = downloads.macArm64;
+    }
+
+    if (download) {
+      button.href = download[0];
+      button.textContent = download[1];
+    }
+  })();
+</script>
 
 ## Requirements
 
