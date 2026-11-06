@@ -57,9 +57,7 @@ TKVSC is distributed as a `.vsix` extension package for Visual Studio Code.
 
 ## Requirements
 
-- [Visual Studio Code](https://code.visualstudio.com/) 1.125.0 or newer
-- [Python 3.13+](https://www.python.org/downloads/)
-- [Microsoft C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) (Windows)
+- [Visual Studio Code](https://code.visualstudio.com/) 1.145.0 or newer
 - A valid TotK romfs dump
 
 ## Installation
@@ -70,7 +68,7 @@ TKVSC is distributed as a `.vsix` extension package for Visual Studio Code.
 
 ### Addon Installation
 
-1. Ensure you have at least TKVSC `0.0.3-beta.1` installed.
+1. Ensure you have at least TKVSC `1.0.0` installed.
 2. Download the `.vsix` for the addon you'd like to install from [Addon Releases](https://github.com/BladesawStudios/tkvsc-addons/releases/latest).
 3. In VS Code, open the Command Palette and run **Extensions: Install from VSIX...**
 4. Select the downloaded file and follow the first-time setup prompts.
