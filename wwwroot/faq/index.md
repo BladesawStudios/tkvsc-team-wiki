@@ -6,7 +6,10 @@ description: Frequently asked questions for TKVSC.
 
 # FAQ
 
-
+1. What file formats does TKVSC support?
+    MIND DO THIS PART
+2. How does TKVSC handle `.zs` compressed files?
+    When provided with a romfs dump, TKVSC uses the game's own ZSTD dictionaries to decompress and recompress files automatically when they are loaded and saved.
 
 The FAQ is still very much a work in progress. Feel free to join the Discord Server and ask questions, they might end up here!
 
