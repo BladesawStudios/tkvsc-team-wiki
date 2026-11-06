@@ -8,11 +8,22 @@ description: Downloads page for TKVSC.
 TKVSC is distributed as a `.vsix` extension package for Visual Studio Code.
 
 <div id="download-btns">
-  <a class="download-btn" id="download-vscode" href="https://github.com/TKVSC-Team/totk-vscode/releases/latest">Latest Release (VSIX)</a>
+  <a class="download-btn" id="download-detected" href="https://github.com/TKVSC-Team/totk-vscode/releases/latest">Download for your OS</a>
+  <a class="download-btn" id="download-all" href="#platform-downloads">See all downloads</a>
   <a class="download-btn" id="download-src" href="https://github.com/TKVSC-Team/totk-vscode">Source Code</a>
   <a class="download-btn" id="download-addon" href="https://tkvsc.dev/addons/index.html">Addons</a>
 </div>
 <br>
+
+<div id="platform-downloads">
+  <h2>All downloads</h2>
+  <ul>
+    <li><a data-download-platform="windows" href="https://downloads.tkvsc.dev/tkvsc/latest/win">Windows</a></li>
+    <li><a data-download-platform="linux" href="https://downloads.tkvsc.dev/tkvsc/latest/linux">Linux</a></li>
+    <li><a data-download-platform="mac-x64" href="https://downloads.tkvsc.dev/tkvsc/latest/mac/x86">macOS (Intel)</a></li>
+    <li><a data-download-platform="mac-arm64" href="https://downloads.tkvsc.dev/tkvsc/latest/mac/arm">macOS (Apple Silicon)</a></li>
+  </ul>
+</div>
 
 ## Requirements
 
@@ -35,4 +46,3 @@ TKVSC is distributed as a `.vsix` extension package for Visual Studio Code.
 4. Select the downloaded file and follow the first-time setup prompts.
 
 Documentation for setup and usage will be expanded here soon.
-
