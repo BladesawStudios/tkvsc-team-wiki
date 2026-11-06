@@ -16,7 +16,7 @@
 <img src="https://raw.githubusercontent.com/TKVSC-Team/totk-vscode/refs/heads/main/docs/tutorials/tkvsc_setup/setup_installsteps.png" alt="A screenshot of the VS Code Extensions tab with numbered icons at the positions referenced above" width="70%"/>
 
 3. Locate and select the `totk-vscode-<version>.vsix`, where `<version>` will vary depending on the version of the extension you downloaded
-4. After the plugin installs, you should see A prompt in the bottom-right corner of the window asking you to select your TOTK RomFS Dump path. Select the folder that *contains* the folders shown below:
+4. After the plugin installs, you should see a prompt in the bottom-right corner of the window asking you to select your TOTK RomFS Dump path. Select the folder that *contains* the folders shown below:
 
 <img src="https://raw.githubusercontent.com/TKVSC-Team/totk-vscode/refs/heads/main/docs/tutorials/tkvsc_setup/setup_selectromfs.png" alt="A screenshot of the prompt directing the user to select the folder containing their RomFS Dump" width="70%"/>
 <img src="https://raw.githubusercontent.com/TKVSC-Team/totk-vscode/refs/heads/main/docs/tutorials/tkvsc_setup/setup_romfsexample.png" alt="A screenshot of a File Explorer window showing many folders in alphabetical order that appear in a valid TOTK RomFS Dump folder" width="70%"/>
