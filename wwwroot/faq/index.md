@@ -13,6 +13,7 @@ description: Frequently asked questions for TKVSC.
     * MSBT
     * SARC (treated as folders)
     * XLINK
+    * PTCL
     * PCHTXT
     * TKMM Config Files  
 2. How does TKVSC handle `.zs` compressed files?
