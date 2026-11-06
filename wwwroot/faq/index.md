@@ -7,14 +7,14 @@ description: Frequently asked questions for TKVSC.
 # FAQ
 
 1. What file formats does TKVSC support?
-* BYML
-* BGYML
-* AAMP
-* MSBT
-* SARC (treated as folders)
-* XLINK
-* PCHTXT
-* TKMM Config Files  
+    * BYML
+    * BGYML
+    * AAMP
+    * MSBT
+    * SARC (treated as folders)
+    * XLINK
+    * PCHTXT
+    * TKMM Config Files  
 2. How does TKVSC handle `.zs` compressed files?
     When provided with a romfs dump, TKVSC uses the game's own ZSTD dictionaries to decompress and recompress files automatically when they are loaded and saved.
 
