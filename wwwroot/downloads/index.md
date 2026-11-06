@@ -73,4 +73,4 @@ TKVSC is distributed as a `.vsix` extension package for Visual Studio Code.
 3. In VS Code, open the Command Palette and run **Extensions: Install from VSIX...**
 4. Select the downloaded file and follow the first-time setup prompts.
 
-Documentation for setup and usage will be expanded here soon.
+For first-time setup, see the [Setup Guide](https://tkvsc.dev/docs/setup-guide/index.html).
