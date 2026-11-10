@@ -18,12 +18,12 @@ The advantage to using TKVSC for an audio replacement mod is that you only ever 
 ### 1. Locate the `.bars`
 After creating your Project and setting it as the Active Project, return to the Game Dump tab. Locate `Sound\Resource` and you should see a long list of `.bars` files. They are named after the internal name of each actor. Generally, it will be intuitive which internal name goes with what, however for files relating to non-character actors it may be harder to identify the one you want. In the words of Navi, "Listen!". For Navi's callout lines in US English, the file needed is `NV_USen_Custom_Navi.bars.zs`. Add the `.bars` file to your active project, then switch back to the Projects tab.
 
-<img src=.\mod_simplesound_LocateBars.png alt="A screenshot of TKVSC's Game Dump tab, showing various `.bars` files including NV_USen_Custom_Navi.bars.zs" width="70%"/>
+<img src=https://raw.githubusercontent.com/BladesawStudios/tkvsc-team-wiki/refs/heads/main/wwwroot/docs/simple-sounds-guide/mod_simplesound_LocateBars.png alt="A screenshot of TKVSC's Game Dump tab, showing various `.bars` files including NV_USen_Custom_Navi.bars.zs" width="70%"/>
 
 ### 2a. Replacing the Audio
 Within the Project, navigate to and select your `.bars` file. You should be presented with a screen similar to the one below:
 
-<img src=.\mod_simplesound_BarsView.png alt="A screenshot of TKVSC's Bars viewer" width="80%"/>
+<img src=https://raw.githubusercontent.com/BladesawStudios/tkvsc-team-wiki/refs/heads/main/wwwroot/docs/simple-sounds-guide/mod_simplesound_BarsView.png alt="A screenshot of TKVSC's Bars viewer" width="80%"/>
 
 As you can see, each audio entry has 3 buttons. `Full` and `Prefetch` switch between previewing the prefetch audio and the full audio file, and `Replace` replaces the audio. Once you've located the specific audio file you want to replace (typically by listening to it), choose `Replace` and select the file you wish to replace it with. The following audio filetypes can be chosen:
 
@@ -45,11 +45,11 @@ The default option from here is to open the Loop Editor. It's recommended to do 
 ### 2b. If Your Original Audio Has Loop Points
 Loop points are denoted by vertical yellow lines. Loop points are used ingame for repeating sections of audio, typically to cut off the intro and fadeout at the end of the audio. It's often done for music, but certain SFX also can have it. Here's what an audio entry with loop points looks like:
 
-<img src=.\mod_simplesound_BarsLoopPreview.png alt="An image showing BGM_Shop_GoronCity with its loop points" width="80%"/>
+<img src=https://raw.githubusercontent.com/BladesawStudios/tkvsc-team-wiki/refs/heads/main/wwwroot/docs/simple-sounds-guide/mod_simplesound_BarsLoopPreview.png alt="An image showing BGM_Shop_GoronCity with its loop points" width="80%"/>
 
 Selecting `Loop` opens the Loop Editor (You also can reach the Loop Editor directly while replacing audio):
 
-<img src=.\mod_simplesound_LoopWindow.png alt="An image TKVSC's Loop Editor window" width="80%"/>
+<img src=https://raw.githubusercontent.com/BladesawStudios/tkvsc-team-wiki/refs/heads/main/wwwroot/docs/simple-sounds-guide/mod_simplesound_LoopWindow.png alt="An image TKVSC's Loop Editor window" width="80%"/>
 
 Within here, you have a variety of options for managing the loop points within an audio clip. The top portion of the window shows a waveform, with the green highlighted area denoting the area inside the loop. The visual on the lower portion of the window represents the audio at the loop point. Drag around the loop handles on your new audio file until it loops properly, which you can test by choosing `Hear seam`. Additionally, when `Snap to zero crossings` is enabled, the loop point boundaries will snap to a spot where the waveform at both the first and second boundary match exactly.
 
