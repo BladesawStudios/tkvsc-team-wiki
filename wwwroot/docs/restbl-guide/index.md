@@ -13,6 +13,16 @@ This file contains the name of most files in the game, and a size in bytes deter
 * A Windows, Linux, or MacOS device
 * A mod to use the RESTBL Calculator on
 
-The RESTBL Calculator was developed by Bladesaw Studios, the creators of TKVSC and the site you're reading this on. To launch it, simply download the file with a name matching your operating system. After extracting, launch the tool, and you should see a window like this one, except nothing will be filled in yet:
+The RESTBL Calculator was developed by Bladesaw Studios, the creators of TKVSC and the site you're reading this on. To launch it, simply download the file with a name matching your operating system. Extract then launch the tool, and you should see this window:
 
-<img src="https://raw.githubusercontent.com/TKVSC-Team/totk-vscode/refs/heads/main/docs/tutorials/restbl-guide/restbl_launch_empty.png" alt="A screenshot of the prompt directing the user to select the folder containing their RomFS Dump" width="70%"/>
+<img src=https://raw.githubusercontent.com/BladesawStudios/tkvsc-team-wiki/refs/heads/main/wwwroot/docs/restbl-guide/restbl_launch_empty.png alt="A screenshot of the RESTBL Calculator as it appears when first launching" width="70%"/>
+
+The tool works across multiple games, and TOTK v1.0.0 is the default game selected. Choose the game and version you would like to generate a RESTBL for from the dropdown menus, then select `Generate RESTBL`. Expand the window or scroll down, and the following will be displayed:
+
+<img src=https://raw.githubusercontent.com/BladesawStudios/tkvsc-team-wiki/refs/heads/main/wwwroot/docs/restbl-guide/restbl_Results.png alt="A screenshot of the RESTBL Calculator after generating a RESTBL for a mod made for Ocarina of Time v1.0.0" width="70%"/>
+
+Shown here is a list of the paths of all entries in the RESTBL edited or added by the mod, the vanilla entry, the calculated entry, and the entry written to the RESTBL.
+
+If your mod doesn't edit any files that change between updates, it's recommended to generate the RESTBL for all updates, as this maximizes the amount of users who can use your mod To do this, simply select a different version and press the `Generate RESTBL` button again
+
+Congratulations! You're now ready to test your mod then package it for submission to GameBanana.
