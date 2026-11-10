@@ -6,7 +6,7 @@ Nintendo's modern game engine, in addition to some of their other engines, has a
 * Tears of the Kingdom v1.2.1's `RESTBL` is called `ResourceSizeTable.Product.121.rsizetable.zs`
 * Tomodachi Life LTD v1.0.0's `RESTBL` is called `ResourceSizeTable.Product.100.Nin_NX_NVN.rsizetable.zs`
 
-This file contains the name of most files in the game, and a size in bytes determining the maximum amount of space in memory they're allowed to occupy. If a file is too small compared to this number, or too larger, the game may crash or freeze when launching or when that file attempts to load into memory. As a result, the community makes RESTBL Calculators, tools that read your mod's files and generate a Resource Size Table based on them. This page holds guides, or references to guides, on using Bladesaw Studios' RESTBL Calculator.
+This file contains the name of most files in the game, and a size in bytes determining the amount of space in memory they've been allocated. If a file is too small compared to this number, or too larger, the game may crash or freeze when launching or when that file attempts to load into memory. As a result, the community makes RESTBL Calculators, tools that read your mod's files and generate a Resource Size Table based on them. This page holds guides, or references to guides, on using Bladesaw Studios' RESTBL Calculator.
 
 ## Prerequisites
 * [RESTBL Calculator](https://gamebanana.com/tools/24830)
