@@ -59,4 +59,4 @@ Once you're done in the loop editor, select `Use these loop points`, or `Use no 
 After saving in the loop editor (or choosing a file if you did not choose to use the loop editor), the `.bars` file is automatically rewritten, including the prefetch audio. The loose `.bwav`, if present in the original game, is automatically pulled in from the Game Dump and edited.
 
 ### 3. Resource Size Table (RESTBL)
-Most mods require changes to the RESTBL. As a result, it is always encouraged to use the [RESTBL Calculator](https://gamebanana.com/tools/24830) tool before packaging and submitting your mod. Click here for a guide on using the tool.
+Most mods require changes to the RESTBL. As a result, it is always encouraged to use the [RESTBL Calculator](https://gamebanana.com/tools/24830) tool before packaging and submitting your mod. [Click here](https://tkvsc.dev/docs/restbl-guide/index.html) for a guide on using the tool.
