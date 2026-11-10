@@ -1,6 +1,6 @@
 # Making Your First Mod - Simple Sound Edit
 
-Thie guide walks you through the process of creating a basic audio-replacement mod for a modern Nintendo game. In this guide, we will be working with the Ocarina of Time remake for Switch 2 (OOTNS2), however the steps are identical to performing the same edit in Tears of the Kingdom (TOTK). Thie tutorial walks through how the [Japanese VA Navi Callouts](https://gamebanana.com/mods/737343) mod was made.
+Thie guide walks you through the process of creating a basic audio-replacement mod for a modern Nintendo game. In this guide, we will be working with the Ocarina of Time remake for Switch 2 (OOTNS2), however the steps are identical to performing the same edit in Tears of the Kingdom (TOTK). This tutorial walks through how the [Japanese VA Navi Callouts](https://gamebanana.com/mods/737343) mod was made.
 
 ## Requirements
 
