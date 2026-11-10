@@ -6,18 +6,29 @@ Nintendo's modern game engine, in addition to some of their other engines, has a
 * Tears of the Kingdom v1.2.1's `RESTBL` is called `ResourceSizeTable.Product.121.rsizetable.zs`
 * Tomodachi Life LTD v1.0.0's `RESTBL` is called `ResourceSizeTable.Product.100.Nin_NX_NVN.rsizetable.zs`
 
-This file contains the name of most files in the game, and a size in bytes determining the amount of space in memory they've been allocated. If a file is too small compared to this number, or too larger, the game may crash or freeze when launching or when that file attempts to load into memory. As a result, the community makes RESTBL Calculators, tools that read your mod's files and generate a Resource Size Table based on them. This page holds guides, or references to guides, on using Bladesaw Studios' RESTBL Calculator.
+This file contains the name of most files in the game, and a size in bytes determining the they're allocated to use while loaded. If a file is too small compared to this number, or too larger, the game may crash or freeze when launching or when that file attempts to load into memory. As a result, the community makes RESTBL Calculators, tools that read your mod's files and generate a Resource Size Table based on them. This tutorial walks you through using Bladesaw Studios' RESTBL Calculator.
 
 ## Prerequisites
 * [RESTBL Calculator](https://gamebanana.com/tools/24830)
 * A Windows, Linux, or MacOS device
 * A mod to use the RESTBL Calculator on
 
-The RESTBL Calculator was developed by Bladesaw Studios, the creators of TKVSC and the site you're reading this on. To launch it, simply download the file with a name matching your operating system. Extract then launch the tool, and you should see this window:
+## Steps
+### 1. Download and Launch RESTBL Calculator
+To launch the RESTBL Calculator, simply download the file with a name matching your operating system. Extract then launch the tool, and you should see this window:
 
 <img src=https://raw.githubusercontent.com/BladesawStudios/tkvsc-team-wiki/refs/heads/main/wwwroot/docs/restbl-guide/restbl_launch_empty.png alt="A screenshot of the RESTBL Calculator as it appears when first launching" width="70%"/>
 
-The tool works across multiple games, and TOTK v1.0.0 is the default game selected. Choose the game and version you would like to generate a RESTBL for from the dropdown menus, then select `Generate RESTBL`. Expand the window or scroll down, and the following will be displayed:
+### 2. Configure Mod Path
+First, fill in the path to your mod folder in the field labelled `Mod`. This path should be either to the `romfs` folder of your mod, or the folder containing the `romfs` folder.
+
+### 3. Configure Game and Version
+The RESTBL Calculator works across multiple games. TOTK v1.0.0 is the default game. It's important to select the correct settings here since RESTBL files aren't compatible between titles. Choose the game and version you would like to generate a RESTBL for from the dropdown menus.
+
+
+
+### 4. Generate RESTBL
+Select `Generate RESTBL`. Expand the window or scroll down, and the following will be displayed:
 
 <img src=https://raw.githubusercontent.com/BladesawStudios/tkvsc-team-wiki/refs/heads/main/wwwroot/docs/restbl-guide/restbl_Results.png alt="A screenshot of the RESTBL Calculator after generating a RESTBL for a mod made for Ocarina of Time v1.0.0" width="70%"/>
 
