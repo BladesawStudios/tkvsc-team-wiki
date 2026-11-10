@@ -6,7 +6,7 @@ Nintendo's modern game engine, in addition to some of their other engines, has a
 * Tears of the Kingdom v1.2.1's `RESTBL` is called `ResourceSizeTable.Product.121.rsizetable.zs`
 * Tomodachi Life LTD v1.0.0's `RESTBL` is called `ResourceSizeTable.Product.100.Nin_NX_NVN.rsizetable.zs`
 
-This file contains the name of most files in the game, and a size in bytes determining the they're allocated to use while loaded. If a file is too small compared to this number, or too larger, the game may crash or freeze when launching or when that file attempts to load into memory. As a result, the community makes RESTBL Calculators, tools that read your mod's files and generate a Resource Size Table based on them. This tutorial walks you through using Bladesaw Studios' RESTBL Calculator.
+This file contains the hashed path of most files in the game and a size in bytes determining the memory allocated to them. If a file is too small or large compared to this number, the game may crash or freeze when launching or when that file attempts to load into memory. As a result, the community makes RESTBL Calculators, tools that read your mod's files and generate a Resource Size Table based on them. This tutorial walks you through using Bladesaw Studios' RESTBL Calculator.
 
 ## Prerequisites
 * [RESTBL Calculator](https://gamebanana.com/tools/24830)
@@ -34,6 +34,6 @@ Select `Generate RESTBL`. Expand the window or scroll down, and the following wi
 
 Shown here is a list of the paths of all entries in the RESTBL edited or added by the mod, the vanilla entry, the calculated entry, and the entry written to the RESTBL.
 
-If your mod doesn't edit any files that change between updates, it's recommended to generate the RESTBL for all updates, as this maximizes the amount of users who can use your mod To do this, simply select a different version and press the `Generate RESTBL` button again
+If your mod doesn't edit any files that change between updates, it's recommended to generate the RESTBL for all updates, as this maximizes the amount of users who can use your mod. To do this, simply select a different version and press the `Generate RESTBL` button again
 
 Congratulations! You're now ready to test your mod then package it for submission to GameBanana.
